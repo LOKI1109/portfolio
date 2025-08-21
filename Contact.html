@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        *{
+            background-color: black;
+        }
+        h1{
+            text-align: center;
+        }
+        section{
+            text-align: center;
+            color: aliceblue
+        }
+        h1{
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <H1>Contact me</H1>
+    <section>
+        <label for="name">NAME:</label>
+        <input class="name" type="text" placeholder="Please enter your name"><br><br>
+        <label for="password">Password:</label>
+        <input class="Password" type="password" placeholder="Password here"><br><br>
+        <label for="tel">Your phonenumber:</label>
+        <input class="tel" type="tel" name="phone" id="tel" placeholder="+91987654321" required><br><br>
+        <label for="mail">Your mail id</label>
+        <input type="email" class="mail" placeholder="ihajc@gmail.com"><br><br>
+        <label for="sec">Course:</label>
+        <select name="sec" id="sec" class="sec">
+            <option value="">AIML</option>
+            <option value="">CSE</option>
+        </select><br><br>
+        <label for="male">Male</label>
+        <input type="radio"  name="gender" class="gender" id="male">
+        <label for="male">Female</label>
+        <input type="radio" name="gender" class="gender" id="male"><br><br>
+        <label for="review">review:</label>
+        <textarea class="review" name="review" id="review"></textarea>
+    </section>
+</body>
+</html>
